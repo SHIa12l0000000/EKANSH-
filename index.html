@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ekansh - Virtual AI Friend</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="ekansh.jpg" alt="Ekansh" class="avatar" />
+    <h1>Hi, I'm Ekansh 👋</h1>
+    <p>I’m your 15-year-old friendly virtual buddy. Chat with me below!</p>
+
+    <h3>🎧 Hear me speak:</h3>
+    <audio controls>
+      <source src="ekansh_voice.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="chat-box" id="chat-box"></div>
+    <input type="text" id="user-input" placeholder="Type your message..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
